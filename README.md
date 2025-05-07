@@ -10,9 +10,9 @@ The notebook structures as follow:
 
 ## Dependencies
 Choose the lastest versions of any of the dependencies below: 
-- numpy
-- pandas
-- seaborn
-- matplotlib
-- sklearn
-- tensorflow
+- [numpy](https://numpy.org/)
+- [pandas](https://pandas.pydata.org/)
+- [seaborn](https://seaborn.pydata.org/)
+- [matplotlib](https://matplotlib.org/)
+- [sklearn](https://scikit-learn.org/stable/)
+- [tensorflow](https://www.tensorflow.org/)

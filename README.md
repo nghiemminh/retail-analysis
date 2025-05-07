@@ -7,7 +7,7 @@ The notebook structures as follow:
 
 1. Data cleaning: prepare clean data for analysis
 2. EDA: dive deepr into data in many aspects: Orders, Time of Orders, Shipment, Product, Sale at Loss, Customer, and Segmentation with KMeans
-3. Sale prediction: build 3 models which are XGBoost, LSTM, Prophet. XGBoost is the best performance model, achieved 1.5% MAPE. 
+3. Sale prediction: build 3 models which are XGBoost, LSTM, Prophet. XGBoost is the best performance model, achieved **1.5% MAPE**. 
 
 ### Dependencies
 Choose the lastest versions of any of the dependencies below: 

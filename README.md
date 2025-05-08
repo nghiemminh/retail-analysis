@@ -1,7 +1,6 @@
 # Retail Analysis 
 
-This repo shows a Jupyter Notebook that I used to analyze the retail data thoroughly. The data is get from Kaggle which describing products in each order. The data contains 50.000 rows, covers 4 years. The goal of this project is to analyze different aspects of this data, segment customers, 
-,build sale prediction models and give recommendations to increase business performance. 
+This repo shows a Jupyter Notebook that I used to analyze the retail data thoroughly. The data is get from Kaggle which describing products in each order. The data contains 50.000 rows, covers 4 years. The goal of this project is to analyze different aspects of this data, segment customers, build sale prediction models and give recommendations to increase business performance. 
 
 The notebook structures as follow: 
 

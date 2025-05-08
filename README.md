@@ -25,7 +25,7 @@ The dataset consists of 50,000 records over 4 years, detailing various aspects o
 - **Sale at loss**: Reasons that many products are sold at loss
 - **Customer**: Number of customer overtime, repeat customer
 - **Customer Segmentation**: Using KMeans to group customer
-- 
+
 #### **3. Sale Prediction:**
 - **BiLSTM**: Trained a network with 2 bidirectional LSTM layers, follows by 2 Dense layers and 2 Dropout. Using a custom loss function
 - **Prophet**: Trained a Prophet with yearly and weekly seasonality

@@ -4,8 +4,8 @@ This repo shows a Jupyter Notebook that I used to analyze the retail data thorou
 
 The notebook structures as follow: 
 
-1. Data cleaning: prepare clean data for analysis
-2. EDA: dive deepr into data in many aspects: Orders, Time of Orders, Shipment, Product, Sale at Loss, Customer, and Segmentation with KMeans
+1. Data cleaning: prepare cleaned data for analysis
+2. EDA: dive deeper into data in many aspects: Orders, Time of Orders, Shipment, Product, Sale at Loss, Customer, and Segmentation with KMeans
 3. Sale prediction: build 3 models which are XGBoost, LSTM, Prophet. XGBoost is the best performance model, achieved **1.5% MAPE**. 
 
 ### Dependencies

@@ -13,24 +13,25 @@ The dataset consists of 50,000 records over 4 years, detailing various aspects o
 
 ### Notebook Structure
 
-**1. Data cleaning:** prepare cleaned data for analysis
+####**1. Data cleaning:** 
+- Prepare cleaned data for analysis
 
-**2. EDA:** dive deeper into data in many aspects: 
-- Revenue: Sale growth and sale pattern over time
-- Orders: Volume of orders and AOV
-- Time of Orders: Identifying peak and off-peak periods in years and weeks, Reorder period
-- Shipment: Ship mode, order priority, and performance of delivery service.
-- Product: Identify the stage of each product (Growth, Saturation,..), most important products
-- Sale at loss: Reasons that many products are sold at loss
-- Customer: Number of customer overtime, repeat customer
-- Customer Segmentation: Using KMeans to group customer
+####**2. EDA:** 
+- **Revenue**: Sale growth and sale pattern over time
+- **Orders**: Volume of orders and AOV
+- **Time of Orders**: Identifying peak and off-peak periods in years and weeks, Reorder period
+- **Shipment**: Ship mode, order priority, and performance of delivery service.
+- **Product**: Identify the stage of each product (Growth, Saturation,..), most important products
+- **Sale at loss**: Reasons that many products are sold at loss
+- **Customer**: Number of customer overtime, repeat customer
+- **Customer Segmentation**: Using KMeans to group customer
 - 
-**3. Sale Prediction:**
-- BiLSTM: Trained a network with 2 bidirectional LSTM layers, follows by 2 Dense layers and 2 Dropout. Using a custom loss function
-- Prophet: Trained a Prophet with yearly and weekly seasonality
-- XGBoost: Trained with 500 estimators, max_depth = 3, and subsample = 0.8. Achieved **1.5% MAPE**.
+####**3. Sale Prediction:**
+- **BiLSTM**: Trained a network with 2 bidirectional LSTM layers, follows by 2 Dense layers and 2 Dropout. Using a custom loss function
+- **Prophet**: Trained a Prophet with yearly and weekly seasonality
+- **XGBoost**: Trained with 500 estimators, max_depth = 3, and subsample = 0.8. Achieved **1.5% MAPE**.
 
----> XGBoost is the best performance model
+---> XGBoost is the best performance model, achieved **1.5 MAPE**
 
 ### Dependencies
 Choose the lastest versions of any of the dependencies below: 
